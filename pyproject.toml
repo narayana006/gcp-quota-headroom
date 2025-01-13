@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gcp-quota-headroom"
+version = "0.1.0"
+description = "Report quota headroom from exported Compute Engine region or project JSON."
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Narayana Vemburaj"}]
+dependencies = []
+
+[project.scripts]
+gcp-quota-headroom = "gcp_quota_headroom.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/narayana006/gcp-quota-headroom"
+
+[tool.setuptools.packages.find]
+where = ["src"]
