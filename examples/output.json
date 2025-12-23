@@ -1,0 +1,37 @@
+{
+  "attention_required": true,
+  "findings": [
+    {
+      "limit": 200.0,
+      "metric": "SSD_TOTAL_GB",
+      "over_limit": 0.0,
+      "remaining": 0.0,
+      "scope": "us-central1",
+      "severity": "critical",
+      "usage": 200.0,
+      "used_percent": 100.0
+    },
+    {
+      "limit": 100.0,
+      "metric": "CPUS",
+      "over_limit": 0.0,
+      "remaining": 14.0,
+      "scope": "us-central1",
+      "severity": "warning",
+      "usage": 86.0,
+      "used_percent": 86.0
+    },
+    {
+      "limit": 20.0,
+      "metric": "IN_USE_ADDRESSES",
+      "over_limit": 0.0,
+      "remaining": 17.0,
+      "scope": "us-central1",
+      "severity": "ok",
+      "usage": 3.0,
+      "used_percent": 15.0
+    }
+  ],
+  "quotas_checked": 3,
+  "resources_checked": 1
+}
